@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ywarrior.mynotes"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:4:5-80
+11-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:4:22-77
+12
+13    <application
+13-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:7:5-29:19
+14        android:allowBackup="true"
+14-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.2] C:\Users\zoyaahsan\.gradle\caches\transforms-2\files-2.1\59f72c33889f365fdf261baf7a1a479b\core-1.3.2\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity
+23-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:14:9-17:20
+24            android:name="com.ywarrior.mynotes.AddNote"
+24-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:14:19-42
+25            android:screenOrientation="portrait" >
+25-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:15:13-49
+26        </activity>
+27        <activity
+27-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:18:9-28:20
+28            android:name="com.ywarrior.mynotes.ScrollingActivity"
+28-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:19:13-46
+29            android:label="@string/title_activity_scrolling"
+29-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:20:13-61
+30            android:screenOrientation="portrait"
+30-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:21:13-49
+31            android:theme="@style/AppTheme.NoActionBar" >
+31-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:22:13-56
+32            <intent-filter>
+32-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:24:17-69
+33-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:26:17-77
+35-->C:\Users\zoyaahsan\Desktop\project\MyNotes\app\src\main\AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[androidx.room:room-runtime:2.2.5] C:\Users\zoyaahsan\.gradle\caches\transforms-2\files-2.1\2d748680cf13dd7f220a248fe33b243e\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+40            android:name="androidx.room.MultiInstanceInvalidationService"
+40-->[androidx.room:room-runtime:2.2.5] C:\Users\zoyaahsan\.gradle\caches\transforms-2\files-2.1\2d748680cf13dd7f220a248fe33b243e\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+41            android:directBootAware="true"
+41-->[androidx.room:room-runtime:2.2.5] C:\Users\zoyaahsan\.gradle\caches\transforms-2\files-2.1\2d748680cf13dd7f220a248fe33b243e\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+42            android:exported="false" />
+42-->[androidx.room:room-runtime:2.2.5] C:\Users\zoyaahsan\.gradle\caches\transforms-2\files-2.1\2d748680cf13dd7f220a248fe33b243e\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+43    </application>
+44
+45</manifest>

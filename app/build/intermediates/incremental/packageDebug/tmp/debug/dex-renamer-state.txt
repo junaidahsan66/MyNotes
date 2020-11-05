@@ -1,0 +1,4 @@
+#Fri Nov 06 00:54:32 IST 2020
+base.0=C\:\\Users\\zoyaahsan\\Desktop\\project\\MyNotes\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
